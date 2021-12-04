@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+div {
+    background-color: red;
+    text-align: center;  
+}
+/* Mobile First  */
+/* Three steps you should Observe */
+/* Step1 - @media(?){}
+? place replace either max-width:400px or min-width:400px;
+max-width is 400 px = 400px and below 400px
+min-width:400px = 400px and higher then 400px
+step2 -
+? Place you can place orientation:landscape (or) portrait also
+portrait - width is smaller then height
+landscape - width is larger then width
+*/
+
+@media(orientation:landscape) {
+    div {
+        background-color: green;
+        text-align: center;
+        color:white;  
+    }
+}
